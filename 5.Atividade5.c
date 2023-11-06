@@ -7,7 +7,7 @@ int main()
     setlocale(LC_ALL, "portuguese");
     int idioma;
 
-    printf("Digite o idioma da sua escolha. Para Inglês - 1, para Espanhol - 2, para Francês - 3: \n");
+    printf("Digite o idioma da sua escolha. Para InglÃªs - 1, para Espanhol - 2, para FrancÃªs - 3: \n");
     scanf("%d", &idioma);
 
 system("cls || clear"); 
@@ -26,7 +26,7 @@ system("cls || clear");
     }
     else
     {
-        printf("Idioma nÃo encontrado. \n");
+        printf("Idioma nÃ£o encontrado. \n");
     }
 
     return 0;
